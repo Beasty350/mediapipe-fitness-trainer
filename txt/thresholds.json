@@ -1,0 +1,85 @@
+{
+  "global_config": {
+    "static_angle_tolerance": 12,
+    "dynamic_angle_buffer": 10,
+    "bad_frame_tolerance": 5
+  },
+  "hammer_curl": {
+    "detection": {
+      "shoulder_static": [0, 35]
+    },
+    "dynamic_angles": {
+      "elbow_up": [0, 20],
+      "elbow_down": [170, 180],
+      "shoulder_up": [0, 18],
+      "shoulder_down": [0, 18]
+    },
+    "male": {
+      "static_angles": {
+        "knee_r": 168,
+        "knee_l": 168,
+        "hip_r": 168,
+        "hip_l": 168,
+        "shoulder_r": 8,
+        "shoulder_l": 8
+      },
+      "convex_hull": {
+        "up": [0.13, 0.137],
+        "down": [0.138, 0.145]
+      },
+      "wrist_distance": [0.12, 0.25]
+    },
+    "female": {
+      "static_angles": {
+        "knee_r": 168,
+        "knee_l": 168,
+        "hip_r": 168,
+        "hip_l": 168,
+        "shoulder_r": 8,
+        "shoulder_l": 8
+      },
+      "convex_hull": {
+        "up": [0.07, 0.092],
+        "down": [0.095, 0.12]
+      },
+      "wrist_distance": [0.11, 0.23]
+    }
+  },
+  "overhead_press": {
+    "detection": {
+      "shoulder_down": [40, 180]
+    },
+    "dynamic_angles": {
+      "shoulder_up": [163, 180],
+      "shoulder_down": [40, 100],
+      "elbow_up": [163, 180],
+      "elbow_down": [20, 80]
+    },
+    "male": {
+      "static_angles": {
+        "knee_r": 168,
+        "knee_l": 168,
+        "hip_r": 168,
+        "hip_l": 168
+      },
+      "convex_hull": {
+        "up": [0.098, 0.117],
+        "down": [0.118, 0.125]
+      },
+      "wrist_distance": [0.0, 0.15]
+    },
+    "female": {
+      "static_angles": {
+        "knee_r": 168,
+        "knee_l": 168,
+        "hip_r": 168,
+        "hip_l": 168
+      },
+      "convex_hull": {
+        "up": [0.087, 0.092],
+        "down": [0.093, 0.1]
+      },
+      "wrist_distance": [0.0, 0.15]
+    }
+  }
+}
