@@ -1,4 +1,4 @@
-# STRAPS 2.0: Real-time Exercise & Posture System 🏋️‍♂️
+# STRAPS: A Real-time Strength Training Assistive System 
 
 ![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Beasty350/mediapipe-fitness-trainer)
@@ -8,14 +8,14 @@ STRAPS 2.0 is an AI-powered fitness assistant that uses your webcam to provide r
 
 ## ✨ Key Features
 
-🤖 Real-time Pose Estimation**: Uses MediaPipe to track 33 body landmarks.
-💪 Automatic Exercise Detection**: Currently supports **Hammer Curls** and **Overhead Press**.
-🔢 Accurate Repetition Counting**: Differentiates between raw attempts and reps performed with correct form.
-🗣️ Live Form Feedback**: Provides on-screen text feedback for static posture, dynamic range of motion, and wrist spacing.
-📊 Performance Scoring**: Scores each correct rep based on form consistency, providing a quantitative measure of quality.
-📈 Session Summary**: Generates a detailed post-workout report with average scores and areas for improvement.
-📹 Logging & Recording**: Automatically saves session logs to a `.csv` file and can record a video of your workout.
-🚻 Gender-Specific Thresholds**: Uses different evaluation criteria for male and female body types for higher accuracy.
+* **🤖 Real-time Pose Estimation**: Uses MediaPipe to track 33 body landmarks.
+* **💪 Automatic Exercise Detection**: Currently supports **Hammer Curls** and **Overhead Press**.
+* **🔢 Accurate Repetition Counting**: Differentiates between raw attempts and reps performed with correct form.
+* **🗣️ Live Form Feedback**: Provides on-screen text feedback for static posture, dynamic range of motion, and wrist spacing.
+* **📊 Performance Scoring**: Scores each correct rep based on form consistency, providing a quantitative measure of quality.
+* **📈 Session Summary**: Generates a detailed post-workout report with average scores and areas for improvement.
+* **📹 Logging & Recording**: Automatically saves session logs to a `.csv` file and can record a video of your workout.
+* **🚻 Gender-Specific Thresholds**: Uses different evaluation criteria for male and female body types for higher accuracy.
 
 ---
 
@@ -23,7 +23,7 @@ STRAPS 2.0 is an AI-powered fitness assistant that uses your webcam to provide r
 
 This project is built with Python and these key libraries:
 
-| Technology | Description |
+| Library | Description |
 | :--- | :--- |
 | **OpenCV** | For video capture and image processing. |
 | **MediaPipe** | For high-fidelity body pose tracking. |
