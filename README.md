@@ -45,7 +45,7 @@ Make sure you have **Python 3.8+** and **pip** installed on your system.
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/Beasty350/mediapipe-fitness-trainer.git](https://github.com/Beasty350/mediapipe-fitness-trainer.git)
+    git clone https://github.com/Beasty350/mediapipe-fitness-trainer.git
     ```
 
 2.  **Navigate to the project directory:**
